@@ -1,0 +1,12 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+$this->load->view('layout/main_header');
+?>
+<body id="page-top">
+  <?php $this->load->view('layout/main_menu'); ?>
+
+<!-- Content go here -->
+
+<?php
+$this->load->view('layout/main_footer');
+?>
