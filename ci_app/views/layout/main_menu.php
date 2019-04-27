@@ -83,6 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <h6 class="dropdown-header">Other Pages:</h6>
           <a class="dropdown-item" href="<?= site_url('error404') ?>">404 Page</a>
           <a class="dropdown-item" href="<?= site_url('blank') ?>">Blank Page</a>
+          <a class="dropdown-item" href="<?= site_url('user_guide') ?>" target="_blank">User Guide</a>
         </div>
       </li>
       <li class="nav-item">
