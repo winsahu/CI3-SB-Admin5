@@ -61,7 +61,8 @@ class Controller_name extends CI_Controller {
 		$data['footer_js'] = 'welcome/footer_js';
 		$this->load->view('welcome/index', $data);
 	}
-}```
+}
+```
 
 4. Views welcome/index template
 ```
@@ -84,7 +85,6 @@ $this->load->view('layout/main_footer');
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-  <!-- Logout Modal-->
   <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
